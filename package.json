@@ -4,14 +4,32 @@
   "description": "ZK Subscriptions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@ensdomains/ensjs": "^4.0.2",
+    "@rainbow-me/rainbowkit": "^2.2.8",
+    "@types/node": "^24.0.10",
+    "@types/react": "^19.1.8",
+    "autoprefixer": "^10.4.21",
+    "ethers": "^6.15.0",
     "hardhat": "^2.25.0",
-    "intmax2-client-sdk": "^1.4.1"
+    "intmax2-server-sdk": "^1.4.1",
+    "next": "^15.3.5",
+    "postcss": "^8.5.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "viem": "^2.31.7",
+    "wagmi": "^2.15.6"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2"
   }
 }
