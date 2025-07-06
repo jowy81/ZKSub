@@ -1,0 +1,24 @@
+{
+  "name": "zksub-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "cors": "^2.8.5",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-fileupload": "^1.5.2",
+    "intmax2-server-sdk": "^1.4.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "latest",
+    "@types/express-fileupload": "^1.5.1",
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
